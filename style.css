@@ -12,9 +12,30 @@ p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-img{
+.instrumento{
     width: 300px;
     height: 300px;
     margin: 60px;
     margin-left: 120px
-    };
+    }
+    .cabecalho{
+      background-color: antiquewhite;
+      display: flex;
+    }
+    .logoimg{
+        width: 120px;
+        height: 120px;
+        margin-left: 200px;
+    }
+    .listacabecalho{
+        display: flex;
+        margin-left: 730px;
+        margin-top: 125px;
+    }
+    .itemlistacabecalho{
+        list-style: none;
+        text-transform: uppercase;
+        color: blueviolet;
+        font-size: 30px;
+        padding-left: 35px;
+    }
